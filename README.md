@@ -208,7 +208,7 @@ After:  "There is a concrete finite game whose outcome is the proof.
 
 ---
 
-### Attempt 5 — [`theory5.c`](./theories/theory5.c) · [`theory5.md`](./theories/theory5.md)
+### Attempt 5 - [`theory5.c`](./theories/theory5.c) · [`theory5.md`](./theories/theory5.md)
 
 **Strategy:** Descriptive complexity. FO(LFP) vs ∃SO on finite
 ordered structures. EF games and pebbling games as proof objects.
