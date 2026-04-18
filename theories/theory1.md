@@ -10,7 +10,7 @@
 
 ## What This Attempt Tries
 
-The strategy is diagonalization — the same family of argument that proves the
+The strategy is diagonalization - the same family of argument that proves the
 Halting Problem undecidable and that separates deterministic time classes via
 the Time Hierarchy Theorem.
 
@@ -138,7 +138,7 @@ This is precisely why the **Time Hierarchy Theorem** can give:
 DTIME(n^k) ⊊ DTIME(n^{k+1})
 ```
 
-but cannot give `P ⊊ NP` — the separation between deterministic
+but cannot give `P ⊊ NP` - the separation between deterministic
 time classes works because the diagonal stays inside the *larger*
 class. Against NP, nondeterminism introduces a qualitative gap
 that polynomial simulation cannot straddle.
@@ -204,7 +204,7 @@ construction is unsound, keeping the attempt honest.
 | ND rules applied correctly | Yes |
 | Mathematical content sound | No |
 | Barrier hit | Relativization (Baker-Gill-Solovay) |
-| Collapses at | Step 3 — diagonal simulation overhead |
+| Collapses at | Step 3 - diagonal simulation overhead |
 
 The skeleton is right. The content fails at the only place that matters.
 
@@ -229,4 +229,4 @@ Attempt 2 will encode that structure and document where it collapses.
 
 ---
 
-*Swirly Crop — P vs NP Deductive Series*
+*Swirly Crop(chant[ψαλμός]) - P vs NP Deductive Series*

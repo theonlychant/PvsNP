@@ -1,6 +1,6 @@
-# P vs NP — Attempt 2: First-Order Logic Expression
+# P vs NP - Attempt 2: First-Order Logic Expression
 
-**Project:** Swirly Crop — P vs NP Deductive Series  
+**Project:** Swirly Crop - P vs NP Deductive Series  
 **File:** `theory2.c`  
 **Built on:** `deduce.c`, `theory1.c`  
 **Status:** `EXPRESSION ACHIEVED / PROOF IMPOSSIBLE IN PURE FOL`  
@@ -158,7 +158,7 @@ every step where a time bound is evaluated.
 
 ---
 
-## The Wall — Three Layers
+## The Wall - Three Layers
 
 ### Layer 1: Arithmetic
 
@@ -187,7 +187,7 @@ completeness cannot derive it from standard axioms.
 ### Layer 3: Independence
 
 Even in FOL+PA, P ≠ NP may be **independent** of the axiom system
-— true but unprovable, analogous to the independence of the
+ true but unprovable, analogous to the independence of the
 Continuum Hypothesis from ZFC. This possibility cannot be ruled
 out without resolving the problem itself.
 

@@ -56,7 +56,7 @@ These are the certain premises:
 For every language L ∈ NP, there exists a polynomial-time computable function f_L such that for all inputs x:
 x ∈ L ↔ f_L(x) ∈ SAT
 
-This is the definition of NP-completeness of SAT. It was proven by Cook (1971) and independently Levin (1973). It is not an assumption — it is established mathematics.
+This is the definition of NP-completeness of SAT. It was proven by Cook (1971) and independently Levin (1973). It is not an assumption - it is established mathematics.
 
 Premise 2 - Polynomial Composition Closure:
 
@@ -68,7 +68,7 @@ Premise 3 - SAT Hypothesis (discharged assumption):
 
 [SAT ∈ P]¹
 
-This is the assumption we introduce and later discharge via →Intro. It is not asserted as true — it is the antecedent of the conditional we are proving. Marking it with superscript ¹ tracks where it enters and where it gets discharged.
+This is the assumption we introduce and later discharge via →Intro. It is not asserted as true - it is the antecedent of the conditional we are proving. Marking it with superscript ¹ tracks where it enters and where it gets discharged.
 
 Premise 4 - Definition of P membership:
 

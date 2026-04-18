@@ -15,7 +15,7 @@ To express P ≠ NP we need to say:
 ```∃L [ InNP(L) ∧ ¬InP(L) ]
 ```
 
-That sentence looks like clean FOL. And it is - syntactically. The problem is what structure M makes it true or false. To evaluate InP(L) in M you need arithmetic in the background. So the sentence is FOL relative to a structure that already encodes polynomial time — which means the hard work is in defining M, not in writing the sentence.
+That sentence looks like clean FOL. And it is - syntactically. The problem is what structure M makes it true or false. To evaluate InP(L) in M you need arithmetic in the background. So the sentence is FOL relative to a structure that already encodes polynomial time - which means the hard work is in defining M, not in writing the sentence.
 Layer 3 - The quantifier depth problem:
 Full unabbreviated expansion of InP(L):
 ```∃M ∃k ∀x ∀n [ |x| = n → ∃t [ Runs(M, x, t) ∧ t ≤ n^k ] ]
