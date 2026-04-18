@@ -51,7 +51,7 @@ and a concrete game whose winning strategy is the proof.
 
 ## The Series
 
-### Foundation - [`deduce.c`](./deduce.c)
+### Foundation - [`deduce.c`](./tests/deduce.c)
 
 Natural deduction infrastructure used throughout the series.
 Implements the Cook-Levin implication as a formal natural deduction
@@ -66,7 +66,7 @@ Each rule is a C function. The proof tree is executable.
 
 ---
 
-### Attempt 1 — [`theory1.c`](./theory1.c) · [`theory1.md`](./theory1.md)
+### Attempt 1 - [`theory1.c`](./theories/theory1.c) · [`theory1.md`](./theories/theory1.md)
 
 **Strategy:** Diagonalization — assume `[P = NP]¹`, construct a
 diagonal language D, derive `⊥`, discharge via `¬Intro`.
@@ -85,7 +85,7 @@ judgement `⊢ (¬P=NP)` and immediately documents why it is unsound.
 
 ---
 
-### Attempt 2 — [`theory2.c`](./theory2.c) · [`theory2.md`](./theory2.md)
+### Attempt 2 - [`theory2.c`](./theories/theory2.c) · [`theory2.md`](./theories/theory2.md)
 
 **Strategy:** Express P ≠ NP precisely in first-order logic.
 Build a full FOL engine: typed terms, formula trees, a multi-sort
@@ -112,16 +112,16 @@ subformula of the satisfaction tree. The sentence evaluates to
 
 ---
 
-### Attempt 3 — [`theory3.c`](./theory3.c) · [`theory3.md`](./theory3.md)
+### Attempt 3 - [`theory3.c`](./theories/theory3.c) · [`theory3.md`](./theories/theory3.md)
 
 **Strategy:** Circuit complexity lower bounds. Show no polynomial-size
 Boolean circuit family computes SAT (`SAT ∉ P/poly` → `P ≠ NP`).
 
 Tools used:
 - Boolean circuit model (AND/OR/NOT/MAJORITY gates, DAG structure)
-- Switching lemma (Håstad 1987) — empirically verified
-- Razborov-Rudich natural proofs audit — three-condition check
-- Williams method (2011) — routing around the natural proofs barrier
+- Switching lemma (Håstad 1987) - empirically verified
+- Razborov-Rudich natural proofs audit - three-condition check
+- Williams method (2011) - routing around the natural proofs barrier
 - ACC⁰ lower bound structure
 
 **Barrier routed around:** The natural proofs barrier (Razborov-Rudich 1994).
@@ -144,7 +144,7 @@ TC⁰, and P/poly.
 
 ---
 
-### Attempt 4 — [`theory4.c`](./theory4.c) · [`theory4.md`](./theory4.md)
+### Attempt 4 - [`theory4.c`](./theories/theory4.c) · [`theory4.md`](./theories/theory4.md)
 
 **Strategy:** Second-order logic with full comprehension and
 the categorical description of ℕ.
@@ -152,17 +152,17 @@ the categorical description of ℕ.
 Key moves:
 - SOL comprehension schema implemented and audited for predicativity
 - Categorical ℕ via 7 arithmetic axioms + SOL induction axiom
-- `|x|^k` defined internally — no external PA
+- `|x|^k` defined internally - no external PA
 - `PRelation(R)` and `NPRelation(R)` as genuine SOL formulas
-- Diagonal via comprehension — new failure mode found
-- **Categoricity route** — the genuinely new argument
+- Diagonal via comprehension - new failure mode found
+- **Categoricity route** - the genuinely new argument
 
 **The categoricity argument:**
 
 All full SOL models of the arithmetic + complexity axioms are
 isomorphic to the standard model ℕ. The isomorphism preserves
 `pow(|x|,k)` and machine indices. Therefore P vs NP has the same
-truth value in all full models — it is **semantically determined**.
+truth value in all full models - it is **semantically determined**.
 
 Oracle models (BGS) satisfy *different* complexity axioms — they
 redefine polynomial time to include oracle calls. They are not
@@ -181,7 +181,7 @@ system. This is stronger than ZFC independence.
 
 ---
 
-### Forward Path - [`proof4.md`](./proof4.md)
+### Forward Path - [`proof4.md`](./proofs/proof4.md)
 
 The bridge document between Attempt 4 and Attempt 5.
 
@@ -208,7 +208,7 @@ After:  "There is a concrete finite game whose outcome is the proof.
 
 ---
 
-### Attempt 5 — [`theory5.c`](./theory5.c) · [`theory5.md`](./theory5.md)
+### Attempt 5 — [`theory5.c`](./theories/theory5.c) · [`theory5.md`](./theories/theory5.md)
 
 **Strategy:** Descriptive complexity. FO(LFP) vs ∃SO on finite
 ordered structures. EF games and pebbling games as proof objects.
