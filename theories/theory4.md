@@ -46,9 +46,9 @@ Instances tested:
 | Instance | R free in φ? | Consistent? |
 |---|---|---|
 | `HardLang`: φ = InNP(x) ∧ ¬InP(x) | NO | YES |
-| `DiagLang`: φ = ¬R(x) | YES | NO — inconsistent |
+| `DiagLang`: φ = ¬R(x) | YES | NO - inconsistent |
 | `D_SOL`: φ = ¬∃F[PRelation(F) ∧ Accepts(F,⟨x,x⟩)] | NO | YES |
-| `SelfRef`: φ = ∃S[R⊆S ∧ ¬S(x)] | YES | NO — inconsistent |
+| `SelfRef`: φ = ∃S[R⊆S ∧ ¬S(x)] | YES | NO - inconsistent |
 
 ---
 
@@ -94,9 +94,9 @@ PRelation(R) ≡
   ]
 ```
 
-`F` is a **second-order variable** — a relation encoding computation
+`F` is a **second-order variable** - a relation encoding computation
 histories. `k` is first-order (a natural number). `pow(|x|,k)` is
-defined via the SOL arithmetic axioms. R is not free in the formula —
+defined via the SOL arithmetic axioms. R is not free in the formula -
 predicative, consistent.
 
 ```
@@ -198,7 +198,7 @@ for the full second-order semantics."*
 
 Even though P vs NP is determined in full SOL, no effective proof
 system can certify all SOL truths. The sentence is either true or
-false in ℕ — but the proof may not exist in any effective system.
+false in ℕ - but the proof may not exist in any effective system.
 
 This is strictly stronger than ZFC independence:
 
@@ -223,12 +223,12 @@ is fully eliminated by the categoricity argument.
 | Categorical ℕ inside SOL | ✓ |
 | PRelation and NPRelation as genuine SOL formulas | ✓ |
 | Arithmetic wall from Attempt 2 removed | ✓ |
-| Diagonal via comprehension — new failure mode | ✓ |
+| Diagonal via comprehension - new failure mode | ✓ |
 | Impredicativity audited | ✓ |
 | P vs NP shown DETERMINED in full SOL | ✓ |
 | BGS relativization shown not to apply | ✓ |
 | Which way it is determined | ✗ |
-| Effective proof | ✗ — SOL incompleteness |
+| Effective proof | ✗ - SOL incompleteness |
 
 ---
 
@@ -239,7 +239,7 @@ is fully eliminated by the categoricity argument.
 | 1 | Diagonalization | Relativization (BGS 1975) | Collapsed |
 | 2 | FOL expression | Arithmetic ceiling + model problem | Expression achieved |
 | 3 | Circuit lower bounds + Williams | Algorithmic structure at P/poly | Barrier routed around |
-| 4 | SOL + categoricity | SOL incompleteness — determination without proof | Determined, unprovable effectively |
+| 4 | SOL + categoricity | SOL incompleteness - determination without proof | Determined, unprovable effectively |
 | 5 | Impagliazzo-Wigderson | TBD | Next |
 
 ---
