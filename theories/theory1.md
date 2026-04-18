@@ -221,7 +221,7 @@ statement than P ≠ NP but achievable (in principle) without
 diagonalization. The key tool will be the **switching lemma** and
 attempts at superpolynomial lower bounds on circuit depth/size.
 
-This is the approach Razborov pursued in the 1980s for monotone circuits —
+This is the approach Razborov pursued in the 1980s for monotone circuits -
 it succeeded for specific problems (clique) but hit a new wall
 (the natural proofs barrier) for general circuits.
 
