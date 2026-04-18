@@ -5,7 +5,7 @@ The core problem in Attempt 2 was that `InP(L)` and `InNP(L)` required quantifyi
 SOL lets us quantify over relations on the domain directly, which means:
 - We can express "there exists a relation R that is a polynomial-time computation" without importing PA
 - We can use the comprehension schema to assert existence of relations defined by formulas
-- We can express induction as a single axiom — giving us arithmetic inside SOL rather than as an external dependency
+- We can express induction as a single axiom - giving us arithmetic inside SOL rather than as an external dependency
 
 The specific power we get:
 
