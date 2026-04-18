@@ -81,7 +81,7 @@ This was a landmark result.
 | 0.20 | 3 | 27.0 | 0.67 | YES |
 
 At `p = 0.05`, the bound `(5·0.05·3)ᵗ < 1`, which is weaker than
-trivial — expected at low restriction probability.
+trivial - expected at low restriction probability.
 
 **The limit:**
 
@@ -96,7 +96,7 @@ It cannot touch P/poly.
 
 Razborov-Rudich (1994): any proof technique satisfying all three
 conditions below is a **natural proof** and cannot separate P from NP
-(assuming pseudorandom functions exist, which follows from P ≠ NP —
+(assuming pseudorandom functions exist, which follows from P ≠ NP -
 making the barrier self-referential):
 
 | Condition | Meaning |
@@ -125,7 +125,7 @@ Extends to general circuits? No. The barrier forbids it.
 | Useful | **YES** | Proved CLIQUE ∉ monotone-P/poly |
 | **Natural proof** | **YES → barrier applies** | |
 
-Extends to general circuits? No — SAT requires NOT gates, and
+Extends to general circuits? No - SAT requires NOT gates, and
 monotone lower bounds do not imply general lower bounds.
 
 ### Conclusion
@@ -165,16 +165,16 @@ does not apply.
 
 **ACC⁰:**
 - Fast ACC⁰-SAT algorithm: known (Williams 2011, via Barrington + mod-gate structure)
-- Lower bound achieved: `NEXP ⊄ ACC⁰` — **proven**
-- Resolves P vs NP: no — NEXP ⊄ ACC⁰ does not imply SAT ∉ P/poly directly
+- Lower bound achieved: `NEXP ⊄ ACC⁰` - **proven**
+- Resolves P vs NP: no - NEXP ⊄ ACC⁰ does not imply SAT ∉ P/poly directly
 
 **TC⁰:**
 - Fast TC⁰-SAT algorithm: unknown (TC⁰ contains integer multiplication)
 - Lower bound: not yet achieved
-- Williams method stalls here — no exploitable structure found
+- Williams method stalls here - no exploitable structure found
 
 **P/poly:**
-- Fast P/poly-SAT algorithm: would require P = PSPACE — an open problem
+- Fast P/poly-SAT algorithm: would require P = PSPACE - an open problem
 - Lower bound: not achieved
 - **Would resolve P vs NP if achieved**
 
