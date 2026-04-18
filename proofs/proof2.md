@@ -12,14 +12,12 @@ InNP(L)  ≡  ∃M ∃k ∀x ∃c [ Verifies(M, L, x, c) ∧ Halts(M, x, k, |x|)
 Already a problem. **Halts(M, x, k, |x|) means "M halts on x in at most n^k steps." The n^k part — quantifying over the exponent k - is arithmetic**. FOL over a pure complexity domain can't express this without importing the natural numbers into the structure.
 Layer 2 - What we actually need:
 To express P ≠ NP we need to say:
-```∃L [ InNP(L) ∧ ¬InP(L) ]
-```
+```∃L [ InNP(L) ∧ ¬InP(L) ]```
 
 That sentence looks like clean FOL. And it is - syntactically. The problem is what structure M makes it true or false. To evaluate InP(L) in M you need arithmetic in the background. So the sentence is FOL relative to a structure that already encodes polynomial time - which means the hard work is in defining M, not in writing the sentence.
 Layer 3 - The quantifier depth problem:
 Full unabbreviated expansion of InP(L):
-```∃M ∃k ∀x ∀n [ |x| = n → ∃t [ Runs(M, x, t) ∧ t ≤ n^k ] ]
-```
+```∃M ∃k ∀x ∀n [ |x| = n → ∃t [ Runs(M, x, t) ∧ t ≤ n^k ] ]```
 
 n^k requires *arithmetic*. t ≤ n^k with k universally quantified over integers is a Π₂ arithmetic statement. This puts us in the language of Peano Arithmetic, **not pure FOL. We've left first-order complexity language and entered arithmetic.**
 
