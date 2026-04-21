@@ -68,7 +68,7 @@ Each rule is a C function. The proof tree is executable.
 
 ### Attempt 1 - [`theory1.c`](./theories/theory1.c) · [`theory1.md`](./theories/theory1.md)
 
-**Strategy:** Diagonalization — assume `[P = NP]¹`, construct a
+**Strategy:** Diagonalization - assume `[P = NP]¹`, construct a
 diagonal language D, derive `⊥`, discharge via `¬Intro`.
 
 **Barrier hit:** Relativization (Baker-Gill-Solovay 1975).
@@ -98,7 +98,7 @@ domain structure, a recursive satisfaction relation `M ⊨ φ[v]`.
 
 **Barrier hit:** Arithmetic ceiling + model-theoretic obstacle.
 
-`InP(L)` and `InNP(L)` require `|x|^k` time bounds — pulling in
+`InP(L)` and `InNP(L)` require `|x|^k` time bounds - pulling in
 Peano Arithmetic. The sentence is FOL+PA, not pure FOL. Gödel
 completeness then blocks a proof: the sentence is not valid in
 all models (oracle models where P = NP exist), so FOL cannot
