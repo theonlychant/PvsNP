@@ -13,7 +13,7 @@
 ## What This Is
 
 This repository is a structured, incremental attempt to approach
-the P vs NP problem through formal deductive methods — natural
+the P vs NP problem through formal deductive methods - natural
 deduction, first-order logic, second-order logic, circuit complexity,
 and descriptive complexity. Each attempt is implemented in C and
 documented in a corresponding markdown file.
