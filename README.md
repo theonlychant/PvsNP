@@ -306,8 +306,8 @@ After five attempts, the series has converged on a single,
 precisely-stated open problem:
 
 > **Can we construct graphs `A_n` (3-colorable) and `B_n`
-> (not 3-colorable) such that `A_n ≡_{FO(LFP)} B_n` — that
-> no FO(LFP) sentence distinguishes them — and maintain a
+> (not 3-colorable) such that `A_n ≡_{FO(LFP)} B_n` - that
+> no FO(LFP) sentence distinguishes them - and maintain a
 > Duplicator bijection through all k rounds of the pebbling
 > game `P_k(A_n, B_n)`, specifically through LFP iteration?**
 
