@@ -164,7 +164,7 @@ isomorphic to the standard model ℕ. The isomorphism preserves
 `pow(|x|,k)` and machine indices. Therefore P vs NP has the same
 truth value in all full models - it is **semantically determined**.
 
-Oracle models (BGS) satisfy *different* complexity axioms — they
+Oracle models (BGS) satisfy *different* complexity axioms - they
 redefine polynomial time to include oracle calls. They are not
 full SOL models of our axioms. **The relativization barrier does
 not apply to the full SOL sentence.**
