@@ -1,6 +1,6 @@
 # proof4.md
-# From Determination to Proof — The Forward Path
-# P vs NP Deductive Series — Swirly Crop
+# From Determination to Proof - The Forward Path
+# P vs NP Deductive Series - Swirly Crop
 
 ---
 
@@ -44,7 +44,7 @@ Either:
 ```
 
 Route B is what Attempts 1–4 have been pursuing in various forms.
-Route A is constructive — it requires exhibiting SAT (or some language)
+Route A is constructive - it requires exhibiting SAT (or some language)
 as the explicit witness and proving it is not in P.
 
 Both routes are now cleaner than before because the sentence is
