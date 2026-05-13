@@ -133,8 +133,7 @@ It does not satisfy the `large` condition of Razborov-Rudich.
 **New wall identified:** Algorithmic structure at P/poly.
 
 The Williams method requires the target circuit class to have
-exploitable structure. P/poly has no such structure by definition
-— any exploitation would require already knowing P ≠ NP.
+exploitable structure. P/poly has no such structure by definition - any exploitation would require already knowing P ≠ NP.
 
 **Status:** `BARRIER ROUTED AROUND / NEW WALL IDENTIFIED`
 
