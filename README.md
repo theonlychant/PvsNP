@@ -254,11 +254,11 @@ P from NP.
 (1) CFI-LFP construction         [OPEN]
 (2) Duplicator strategy          [follows from 1]
 (3) Order-independence argument  [partially known]
-(4) LFP invariance under iteration [OPEN — hardest step]
+(4) LFP invariance under iteration [OPEN - hardest step]
 (5) Extraction: P ≠ NP □         [follows from 1-4]
 ```
 
-**Status:** `CFI-LFP PROBLEM ISOLATED — STEP (4) OPEN`
+**Status:** `CFI-LFP PROBLEM ISOLATED - STEP (4) OPEN`
 
 ---
 
