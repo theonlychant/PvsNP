@@ -69,7 +69,7 @@ Define `f: ℕ → |M|` by `f(0) = 0_M`, `f(n+1) = s_M(f(n))`.
   `P` is in the second-order domain. `0_M ∈ P`, `P` closed under `s_M`.
   The SOL induction axiom forces `P = |M|`.
 - *Homomorphism*: induction on ℕ for each operation.
-- **Conclusion:** `M ≅ ℕ` — all full models are isomorphic.
+- **Conclusion:** `M ≅ ℕ` - all full models are isomorphic.
 
 **Consequence:** `|x|^k` is now definable *inside* SOL:
 ```
