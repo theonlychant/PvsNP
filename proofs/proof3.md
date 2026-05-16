@@ -34,7 +34,7 @@ Where F ranges over binary relations (encoding computation histories), k ranges 
 **Where the new attempt goes**:
 The notes flag two important things for our proof attempt:
 
-1. Comprehension schema - ∃R ∀x₁...xₖ(φ(x₁,...,xₖ) ↔ R(x₁,...,xₖ)). We can use this to assert existence of the diagonal language from Attempt 1 — as a second-order object. This might let us fix the diagonal construction that broke in Attempt 1.
+1. Comprehension schema - ∃R ∀x₁...xₖ(φ(x₁,...,xₖ) ↔ R(x₁,...,xₖ)). We can use this to assert existence of the diagonal language from Attempt 1 - as a second-order object. This might let us fix the diagonal construction that broke in Attempt 1.
 
 2. No completeness for full SOL - "no effectively given derivation system is complete for the full second-order semantics." This is both our opportunity and our wall. The opportunity: SOL can express things no FOL system can prove. The wall: we can't enumerate all valid SOL inferences - the proof system is necessarily incomplete.
 
