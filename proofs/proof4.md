@@ -357,21 +357,21 @@ by the finite ordered structures themselves - it is not model-dependent.
 Attempt 5 will implement:
 
 ```
-A — FO(LFP) syntax and semantics in C
+A - FO(LFP) syntax and semantics in C
     (fixed-point operator, iteration to closure)
 
-B — ∃SO sentence for 3-colorability (concrete Fagin instance)
+B - ∃SO sentence for 3-colorability (concrete Fagin instance)
 
-C — EF game for FO lower bounds
+C - EF game for FO lower bounds
     (show 3-colorability ∉ FO via game)
 
-D — Extension to FO(LFP) via pebbling game
+D - Extension to FO(LFP) via pebbling game
     (attempt to show 3-colorability ∉ FO(LFP))
 
-E — Where the pebbling game stalls
+E - Where the pebbling game stalls
     (the LFP counting power blocks the argument)
 
-F — What a winning strategy would require
+F - What a winning strategy would require
     (the mathematical content of the proof that remains open)
 ```
 
