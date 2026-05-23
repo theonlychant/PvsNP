@@ -37,9 +37,9 @@ What we still need:
 
 ```
 Either:
-  (A) A witness — exhibit specific R with NPRelation(R) ∧ ¬PRelation(R)
+  (A) A witness - exhibit specific R with NPRelation(R) ∧ ¬PRelation(R)
   Or:
-  (B) A contradiction — derive ⊥ from ∀R[NPRelation(R) → PRelation(R)]
+  (B) A contradiction - derive ⊥ from ∀R[NPRelation(R) → PRelation(R)]
       inside SOL + arithmetic axioms
 ```
 
