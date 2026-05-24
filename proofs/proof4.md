@@ -63,7 +63,7 @@ Therefore:
 ```
 If we can show ¬PRelation(SAT) holds in ANY structure
 that satisfies our SOL complexity axioms,
-it holds in ALL of them — including ℕ itself.
+it holds in ALL of them - including ℕ itself.
 ```
 
 This is a consequence of categoricity. It is the forward handle.
