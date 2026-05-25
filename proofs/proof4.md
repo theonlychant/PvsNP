@@ -144,7 +144,7 @@ If yes - by categoricity, it is true in the standard model.
 
 **Wall:** Constructing such a forcing argument requires knowing
 which sentences about polynomial time are independent of which
-axioms — itself an open problem. This route is currently
+axioms - itself an open problem. This route is currently
 speculative but not blocked by any named barrier.
 
 ---
