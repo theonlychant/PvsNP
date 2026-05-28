@@ -71,7 +71,7 @@ This is a consequence of categoricity. It is the forward handle.
 We know already:
 
 ```
-NPRelation(SAT)  is TRUE in ℕ          (Cook-Levin — provable)
+NPRelation(SAT)  is TRUE in ℕ          (Cook-Levin - provable)
 PRelation(SAT)   is TRUE or FALSE in ℕ (this is P vs NP)
 ```
 
