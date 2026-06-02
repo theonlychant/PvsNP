@@ -381,7 +381,7 @@ complete proof would need that we do not yet have.
 
 ---
 
-## The Series So Far — Cumulative Achievement
+## The Series So Far - - Cumulative Achievement
 
 | Attempt | What was built | What was achieved |
 |---|---|---|
