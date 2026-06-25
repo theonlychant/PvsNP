@@ -310,7 +310,7 @@ If L requires global structure, it may not be expressible in FO(LFP).
 games that characterize what the logic can express. Winning a
 pebbling game against an adversary proves a lower bound on LFP.
 
-### Step 3 — The Wall
+### Step 3 - The Wall
 
 The EF game approach works for FO (without LFP). For FO(LFP),
 the game becomes much harder to win - LFP can simulate inductive
