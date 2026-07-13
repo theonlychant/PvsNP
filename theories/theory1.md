@@ -34,7 +34,7 @@ The logical form is:
 ### Step 1 - Introduce `[P = NP]¹`
 
 Assume P = NP as a dischargeable hypothesis, labelled `1`.
-This is not asserted as true — it is the antecedent we will
+This is not asserted as true - it is the antecedent we will
 derive a contradiction from.
 
 ### Step 2 - Enumerate poly-time machines
