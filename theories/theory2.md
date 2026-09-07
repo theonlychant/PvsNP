@@ -94,7 +94,7 @@ Since P ⊆ NP is known, this is equivalent to P ≠ NP.
 └ ∃k'       — polynomial exponent (negated)[sort: Nat     ]
 ```
 
-This is a `Σ²₁` sentence in the arithmetic hierarchy — existential
+This is a `Σ²₁` sentence in the arithmetic hierarchy - existential
 over languages, with mixed quantifiers inside over machines and inputs.
 
 ---
