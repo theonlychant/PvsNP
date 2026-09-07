@@ -51,7 +51,7 @@ Following the textbook (Ch. 14 - Introduction to FOL):
 | Symbol | Meaning |
 |---|---|
 | `\|x\|` | Length of string x |
-| `n^k` | Arithmetic power — **requires PA** |
+| `n^k` | Arithmetic power - - **requires PA** |
 | `f ∘ g` | Function composition |
 
 ### Constant Symbols
