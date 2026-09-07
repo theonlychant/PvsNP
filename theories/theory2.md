@@ -105,7 +105,7 @@ A structure M = (Domain, Interpretation) where:
 
 **Domain:**
 - Languages: `{SAT, 3COLOR, HALT}` — with ground truth `in_P`, `in_NP` flags
-- Machines: `{poly_decider, np_verifier}` — with runtime exponents
+- Machines: `{poly_decider, np_verifier}` - with runtime exponents
 - Arithmetic component: present (PA)
 
 **Interpretation of InP(L):**
